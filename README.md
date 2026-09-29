@@ -1,5 +1,11 @@
 # Screen On
 
+## Direkt auf dem iPhone – ohne Mac
+
+**[Screen On öffnen](https://screen-on-jorge.jorgepnt.chatgpt.site)**
+
+In Safari öffnen → Teilen → Zum Home-Bildschirm → Hinzufügen. Die Web-App unter `web/` verwendet ausschließlich die offizielle Screen Wake Lock API. Sie benötigt HTTPS und für den Home-Bildschirm iOS 18.4 oder neuer. Timer, Status und Laufzeit funktionieren lokal; beim Verlassen endet die Sitzung. Keine Dynamic Island oder iPhone-Haptik in der Web-Version. iOS kann einen Wake Lock ablehnen oder freigeben; die Oberfläche zeigt nur den bestätigten Zustand. Der Service Worker stellt die statischen Dateien nach dem ersten erfolgreichen Laden auch offline bereit. Die native Swift-Version bleibt unten beschrieben und unverändert vorhanden.
+
 Eine kleine native iPhone-App: öffnen, **Bildschirm anlassen** drücken und die App im Vordergrund lassen. Erneutes Drücken stellt die normale automatische Bildschirmsperre wieder her.
 
 ## Funktionen
